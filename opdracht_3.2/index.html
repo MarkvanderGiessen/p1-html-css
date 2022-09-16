@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>vakantie planner</h1>
+<form action="">
+<div>
+    <label for="name">naam</label>
+    <input type="text" id="name" name="name" placeholder="voornaam" required
+    pattern="[A-Za-z]+$">
+</div>
+<div>
+<label for="surname">achternaam</label>
+<input type="text" id="surname" name="surname" placeholder="achternaam" required
+pattern="[A-Za-z]+$">
+</div>
+<br>
+<div>
+    <label for="gender">gender</label>
+    <input type="radio" id="man" name="man" value="man">
+    <label for="man">Man</label>
+    <input type="radio" id="vrouw" name="vrouw" value="vrouw">
+    <label for="vrouw">vrouw</label>
+</div>
+<br>
+<div>
+<label for="number">huisnummer</label>
+<input type="text" id="huisnummer" name="huisnummer" placeholder="adres" min="1" max="999" required 
+pattern="[A-Za-z]+$">
+</div>
+<br>
+<div>
+    <label for="postcode">postcode</label>
+    <input type="text" id="postcode" name="postcode" placeholder="postcode" min="1000" max="9999" >
+</div>
+<br>
+<div>
+    <label for="stad">stad</label>
+    <input type="text" id="stad" name="stad" placeholder="stad" required pattern="[A-Za-z]+$">
+</div>
+<br>
+<div>
+    <label for="land">land</label>
+    <input type="text" name="land" placeholder="land" required pattern="[A-Za-z]+$">
+</div>
+<br>
+<div>
+    <label for="Bsn-nummer">Bsn-nummer</label>
+    <input type="text" name="Bsn-nummer" placeholder="Bsn-nummer" min="100000000" max="999999999">
+</div>
+<br>
+<p>vakantieplanner</p>
+<select name="" id="">
+    <option value="">Uganda</option>
+    <option value="">Rusland</option>
+    <option value="">japan</option>
+    <option value="">Australië</option>
+</select>
+<br>
+<label for="datemin"></label>
+<input type="datemin" min="15-9-2022" placeholder="vertrekdatum">
+<label for="datemax"></label>
+<input type="datemax" placeholder="terugkomst datum">
+<br>
+<p>hoeveel personen</p>
+<select name="" id="">
+<option value="">1 persoon</option>
+<option value="">2 personen</option>
+<option value="">3 personen</option>
+<option value="">4 personen</option>
+</select>
+<br><br>
+
+<label for="email">enter your email</label>
+<input type="email" id="email" name="email">
+<label for="pwd">password</label>
+<input type="password" id="pwd" name="pwd">
+<br>
+<input type="submit" value="boek nu">
+<input type="reset">
+</form>
+
+</body>
+</html>
