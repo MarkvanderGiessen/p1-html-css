@@ -1,25 +1,33 @@
 h1{ color: blue;
      font-size :24px ;
       font-weight: bold; 
-      font-style: italic;
-    }
+      font-style: italic;}
 
 h2{color: #00f ;
    font-size: 20px;
-    font-weight: bold;
-}
+    font-weight: bold;}
 
 h3{color: teal;
 font-size: 16px;
-font-weight: bold;
-}
+font-weight: bold;}
 
-p{color: #4d4d4d;
-}
+p{color: #4d4d4d;}
 
 .paragraph{font-weight: bold;
-}
+color: teal;}
+.henk{color: green;}
 
 a{color: #8a2be2;
 text-decoration: none;}
 
+header{width: 100vw; height: 33vh;
+   background-image: url("img/IGN-Logo.png");
+    background-size: cover;
+     background-repeat: no-repeat;
+      background-position: center;}
+img{width: 50vw;}
+article{border: dotted;
+border-radius: 7px;
+border-color: red;
+border-left-width: thick; 
+border-left-style:solid; }
