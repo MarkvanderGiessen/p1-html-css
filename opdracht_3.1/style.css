@@ -8,10 +8,10 @@ html {
   font-family: "Goldman", regular;
 }
 body {
-  background-image: url(./img/hacker.png);
-  background-repeat: no-repeat; background-position: center;
-  background-size:cover;
-  background-color: black;}
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+}
 
 nav {
   display: flex;
@@ -23,6 +23,7 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
 }
 nav ul {
   display: flex;
@@ -41,11 +42,33 @@ nav img {
   width: 5vw;
 }
 
-footer{background: #00a8c7;
-height: 10vh;}
+footer {
+  background: #00a8c7;
+  height: 10vh;
+}
 
-p{color: white;}
-p{font-size: 1.5rem;}
-.title{color: limegreen; font-weight: bold;}
-section{width: 100vw; height: 100vh;}
-.picture{size: 2rem;} 
+p {
+  color: white;
+}
+p {
+  font-size: 2rem;
+}
+.title {
+  color: limegreen;
+  font-weight: bold;
+}
+section {
+  width: 100vw;
+  height: 100vh;
+}
+.picture {
+  size: 2rem;
+}
+.hacker {
+  background-image : url("./img/hacker_banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
