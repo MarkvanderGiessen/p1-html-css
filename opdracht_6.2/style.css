@@ -1,13 +1,13 @@
-body{
+.flex_container{
+    height: 200px;
+    width: 100vw;
     display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
 }
 
-.flex-container{
+.cube{
+    height: 200px;
     width: 200px;
-    height: 1200px;
-}
-
-.cube-container{
-
-    
+    justify-content: space-between;
 }
